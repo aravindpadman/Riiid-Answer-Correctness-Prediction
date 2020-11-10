@@ -5,7 +5,7 @@ import optuna
 
 import xgboost
 
-train = pd.read_csv("./data/train.csv", nrows=3e6, 
+train = pd.read_csv("~/kaggledatasets/riiid-test-answer-prediction/train.csv", nrows=3e6, 
                         dtype={'row_id': 'int64', 
                         'timestamp': 'int64', 
                         'user_id': 'int32', 
@@ -30,7 +30,7 @@ class DataPipeline:
         if self.is_fitted == True:
             return 1
         else:
-            kdsjkjksh
+            pass
 
     def func(self):
         pass
